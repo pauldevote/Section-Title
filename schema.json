@@ -1,0 +1,30 @@
+[
+    {
+        "type": "tab",
+        "label": "Content",
+        "sections": [
+            {
+                "settings": [
+                    {
+                        "type": "text",
+                        "label": "My text",
+                        "id": "myText",
+                        "default": "Section Title"
+                    },
+                    {
+                        "type": "number",
+                        "label": "Font size",
+                        "id": "fontSize",
+                        "default": {
+                          "value": "32",
+                          "type": "px"
+                        },
+                        "typeMeta": {
+                          "parseType": "integer"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]

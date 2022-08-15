@@ -1,0 +1,15 @@
+<!-- DO NOT DELETE
+    Access GraphQL query data with {{_.data}}
+    Access the widget id with {{_.id}}
+-->
+<div id="widget-{{_.id}}" class="section-title">
+    <h3>{{ myText }}</h3>
+</div>
+<style>
+   #widget-{{_.id}}.section-title h3 {
+        font-family: 'League Spartan', sans-serif;
+        font-size: {{ fontSize.value }}px;
+        font-weight: bold;
+        margin-bottom: 0;
+    }
+</style>
